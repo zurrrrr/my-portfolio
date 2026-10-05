@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  background-color: #075706;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.home-container {
+    background-image: linear-gradient(rgb(52, 151, 55), rgb(168, 161, 161));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 70vh;
+    background-color: #e0f2f1;
+}
+
+
+.content {
+    color: white;
+    text-align: center;
+}
+
+.about-button{
+    display: inline-block;
+    background-color: #28983e;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    margin-top: 20px;
+
+}
+
+.drake{
+    width: 50%;
+    margin-top: 50px;
+
+}
+
+.drake img{
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+}
+
+#Home {
+    flex: 1;
+}
+
+#section {
+  padding: 40px 20px;
+}
+
+#projects {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+
+
+.about-container {
+    background-image: linear-gradient(rgb(52, 151, 55), rgb(168, 161, 161));
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 20px;
+}
+
+.about-text {
+    width: 50%;
+    text-align: center;
+    margin-top: 250px;
+
+}
+
+.about-photo {
+    width: 50%;
+    text-align: right;
+    margin-top: 50px;
+}
+
+.about-photo img {
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+footer {
+    margin-top: auto;
+    padding-top: 20px;
+    padding-bottom:20px;
+    background-color: #37c23e;
+    color: white;
+    text-align: center;
+}
+
