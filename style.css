@@ -98,6 +98,7 @@ header nav a {
     width: 50%;
     text-align: center;
     margin-top: 250px;
+    color: white;
 
 }
 
@@ -114,7 +115,23 @@ header nav a {
     border-radius: 10px;
 }
 
-footer {
+.contact{
+    background-image: linear-gradient(rgb(52, 151, 55), rgb(168, 161, 161));
+    padding: 50px;
+    margin: 0;
+
+
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    
+    border-radius: 10px;
+    padding: 30px;
+}
+
+#footer {
     margin-top: auto;
     padding-top: 20px;
     padding-bottom:20px;
