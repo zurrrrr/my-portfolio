@@ -89,21 +89,31 @@ header nav a {
     background-image: linear-gradient(rgb(52, 151, 55), rgb(168, 161, 161));
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     gap: 40px;
-    padding: 20px;
+    padding: 40px;
 }
 
 .about-text {
-    width: 50%;
+    width: 30%;
     text-align: center;
-    margin-top: 250px;
     color: white;
 
 }
 
+.about-video {
+    width: 40%;
+}
+
+.about-video video{
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    border-radius: 20px;
+}
+
 .about-photo {
-    width: 50%;
+    width: 30%;
     text-align: right;
     margin-top: 50px;
 }
