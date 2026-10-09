@@ -1,0 +1,58 @@
+@media only screen and (min-width: 481px) and (max-width: 960px) {
+
+    .about-countainer{
+        display: block;
+        text-align: center;
+        padding: 30px;
+    }
+
+    .about-photo{
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .about-photo img {
+        width:300px;
+    }
+
+    .about-text{
+        width: 100%;
+        text-align: center;
+    }
+
+    .about-video{
+        width: 100%;
+        margin: 20px;
+    }
+
+    .about-video video{
+        width: 300px;
+    }
+
+    .project-container{
+        width: 100%;
+    }
+
+    .project-header{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .box{
+        float: none;
+        width: 80%;
+        margin: 20px auto;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .contact{
+        padding: 30px 15px;
+    }
+
+    .contact-form{
+        width: 90%;
+        margin: 0 auto;
+        padding: 15px;
+    }
+}

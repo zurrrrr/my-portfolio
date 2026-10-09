@@ -3,12 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>About Me</title>
+    <!--Allowing the page to adjust to different screen sizes-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
+    <!--Applying the CSS for phone view-->
+    <link href="phone.css" rel="stylesheet" type="text/css" media="only screen and (max-width: 480px)">
+    <!--Applying the CSS for tablet view-->
+    <link href="tablet.css" rel="stylesheet" type="text/css" media="only screen and (min-width: 481px) and (max-width: 960px)">
 </head>
 <body>
 
+    <!--Wraps the main page-->
     <div id="wrapper">
-
+    
+    <!--Website title and navigation menu-->
     <header>
         <h1>About Me</h1>
 
@@ -21,11 +29,13 @@
     </header>
 
     </div>
+    <!--Contains the about home page content-->
         <div class="about-container">
+            <!--Photo of myself-->
             <div class="about-photo">
                 <img src="aboutme.jpeg"alt="Zuriel Tolibas" >
             </div>
-
+            <!--Displays the information about myself-->
             <div class="about-text">
                 <h2>A little about me...</h2>
                 <p
@@ -36,10 +46,11 @@
         </div>
 
 
-
+        <!--Displays the video with controls for the user-->
         <div class="about-video">
             <video width="300" height="300" controls>
                 <source src="aboutMeVid.mp4" type="video/mp4">
+                <!--Displays this message if the browser is unable to play video-->
                 Your browser does not support the video tag.
             </video>
             
@@ -47,6 +58,7 @@
 
 </div>
 
+    <!--Footer at the bottom of the page containing email, Linkedin, and copyright notice-->
     <footer id="footer">
         <h3>zuriel.tolibas@ontariotechu.net | linkedin.com/in/zurieltolibas</h3>
         <p>Copyright © 2026 as. All rights reserved</p>
